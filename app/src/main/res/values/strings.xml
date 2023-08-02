@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Truyện Cười</string>
+    <string name="txt_girl">con gái</string>
+    <string name="txt_name">Đã 2 lần rồi</string>
+    <string name="txt_content">Cô con gái rón rén định ra khỏi nhà lúc gần đi ngủ thì bị ông bố chặn lại: - Muộn thế này còn định đi đâu nữa? - Con định chạy ù ra thùng thư để bỏ hai lá thư thôi ạ! - Thế thì nhanh lên một chút, thùng thư đó đã huýt sáo hai lần rồi đấy!</string>
+    <string name="txt_previous"><![CDATA[<< trước]]></string>
+    <string name="txt_next"><![CDATA[tiếp >>]]></string>
+    <string name="txt_login">Login</string>
+    <string name="txt_phone">phone</string>
+    <string name="txt_pass">password</string>
+    <string name="txt_remember">Ghi nhớ</string>
+    <string name="txt_save_accounting">Save Accounting</string>
+    <string name="txt_save_in_external_storage">save in external storage</string>
+    <string name="txt_tittle">Nó hình gì?</string>
+    <string name="txt_title">Đã hai lần rồi</string>
+</resources>

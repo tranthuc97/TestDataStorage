@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txt_login"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        tools:ignore="SpUsage" />
+
+    <EditText
+        android:id="@+id/edt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints="phone"
+        android:hint="@string/txt_phone"
+        android:inputType="phone"
+        tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/edt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints="password"
+        android:hint="@string/txt_pass"
+        android:inputType="textPassword"
+        tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <CheckBox
+        android:id="@+id/ck_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_remember"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_save_accounting"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt_save2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="@string/txt_save_in_external_storage"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
